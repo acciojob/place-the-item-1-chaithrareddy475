@@ -7,11 +7,12 @@
 	
 	<style>
 		.holder{
-			display: grid;
-			grid-column-gap: 50px;
+			display: flex;
+			gap: 50px;
 			grid-row-gap: 50px;
 			grid-template-columns: repeat(2,200px);
 			grid-template-rows: repeat(2,200px);
+			justify-content: space-between;
 		}
 		.holder > div{
 			background-color: black;
